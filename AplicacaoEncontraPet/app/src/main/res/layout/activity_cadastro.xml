@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tfNomeDono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Dono"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tfEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tfNomeDono"
+        android:layout_alignStart="@+id/tfNomeDono"
+        android:layout_below="@+id/tfNomeDono"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tfTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tfEmail"
+        android:layout_alignRight="@+id/tfEmail"
+        android:layout_below="@+id/tfEmail"
+        android:ems="10"
+        android:hint="Telefone"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tfEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Endereço"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/tfTelefone"
+        android:layout_alignLeft="@+id/tfTelefone"
+        android:layout_alignStart="@+id/tfTelefone" />
+
+    <EditText
+        android:id="@+id/tfNomePet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tfEndereco"
+        android:layout_alignStart="@+id/tfEndereco"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Pet"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tfEspecie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tfNomePet"
+        android:layout_alignStart="@+id/tfNomePet"
+        android:layout_below="@+id/tfNomePet"
+        android:ems="10"
+        android:hint="Espécie"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tfRastreador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tfEspecie"
+        android:layout_alignStart="@+id/tfEspecie"
+        android:layout_below="@+id/tfEspecie"
+        android:ems="10"
+        android:hint="Rastreador xx xxxxx xxxx"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tfRastreador"
+        android:layout_alignLeft="@+id/tfRastreador"
+        android:layout_alignRight="@+id/tfRastreador"
+        android:layout_alignStart="@+id/tfRastreador"
+        android:layout_below="@+id/tfRastreador"
+        android:layout_marginTop="25dp"
+        android:text="CADASTRAR" />
+</RelativeLayout>

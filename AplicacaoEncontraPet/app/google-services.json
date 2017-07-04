@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "159895828364",
+    "firebase_url": "https://aplicativoencontrapet.firebaseio.com",
+    "project_id": "aplicativoencontrapet",
+    "storage_bucket": "aplicativoencontrapet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159895828364:android:c87506abae5793c4",
+        "android_client_info": {
+          "package_name": "encontrapet.topicos.ads.senac.aplicacaoencontrapet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159895828364-sl9pte6562ipdcgamaq4qjo0746joia4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4dpsi7KtVsn6Ix__2-aGwaj8hxj754k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
