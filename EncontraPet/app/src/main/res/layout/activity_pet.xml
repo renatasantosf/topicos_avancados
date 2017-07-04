@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guillermo1.encontrapet.activities.Pet">
+
+    <RelativeLayout
+        android:layout_width="341dp"
+        android:layout_height="496dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <EditText
+            android:id="@+id/raca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Raça"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="59dp"
+            android:layout_below="@+id/voltar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="48dp" />
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/raca"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/add"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="66dp"
+            android:text="Cadastrar"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            tools:layout_editor_absoluteX="202dp"
+            tools:layout_editor_absoluteY="231dp"
+            android:layout_toRightOf="@+id/cadastrar"
+            android:layout_toEndOf="@+id/cadastrar"
+            android:layout_marginLeft="49dp"
+            android:layout_marginStart="49dp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/voltar"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="97dp"
+            android:layout_toEndOf="@+id/voltar"
+            android:layout_toRightOf="@+id/voltar"
+            android:text="Add"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="146dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

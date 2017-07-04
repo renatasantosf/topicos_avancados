@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "405562890727",
+    "firebase_url": "https://encontrapetultimo.firebaseio.com",
+    "project_id": "encontrapetultimo",
+    "storage_bucket": "encontrapetultimo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405562890727:android:f70f9dcaff68b78e",
+        "android_client_info": {
+          "package_name": "com.example.guillermo1.encontrapet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405562890727-81h8b29n9ajoca51t1kab1ue5bthludf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwQe6kaZjpnkUVFncjZ3kL3P9WQxOPZo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
